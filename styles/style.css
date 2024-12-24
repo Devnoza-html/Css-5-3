@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: inter;
+}
+
+.FullBody {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+} 
+
+nav {
+    background-color: #E7EEFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px 28px auto 28px;
+}
+
+.main__Logo {
+    margin-top: 15px;
+    width: 60px;
+    border-bottom: 1px solid #002B81;
+    margin: 8px 28px 28px 28px;
+}
+
+.icons {
+    width: 40px;
+    display: flex;
+    justify-self: center;
+}
+
+.Right__Part {
+    width: 100%;
+}
+
+.header {
+    background-color: #E7EEFF;
+    width: 100%;
+    display: flex;  
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    justify-content: space-between;
+    align-self: flex-start;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.Body {
+    width: 100%;
+    display: flex;
+    margin-top: 42px;
+    flex-direction: column;
+}
+
+.settings__Top {
+    width: 540px;
+    margin-left: auto;
+}
+
+.settings {
+    width: 100%;
+    margin-left: auto;
+    display: flex;
+    gap: 30px;
+    justify-self: flex-end;
+}
+
+.Location {
+    display: flex;
+    justify-self: flex-end;
+    align-items: center;
+    gap: 12px;
+    background-color: #E7EEFF;
+    padding: 8px 12px;
+    border-radius: 16px;
+}
+
+.Grid {
+    width: 100%;
+    margin-top: 42px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 50px;
+}
+
+img {
+    margin-bottom: 0;
+}
+
+.description {
+    background-color: #E7EEFF;
+    padding: 8px 12px;
+    margin-top: -5px;
+    border-radius: 0px 0px 24px 24px;
+}
+
+.Name {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.adress {
+    color: #606060;
+}
